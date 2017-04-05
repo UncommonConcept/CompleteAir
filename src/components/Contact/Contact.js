@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-
+import {
+ // BrowserRouter as Router,
+  //Route,
+  Link
+} from 'react-router-dom'
 
 class Contact extends Component {
   render() {
@@ -11,6 +15,7 @@ class Contact extends Component {
         </div>
         <p className="">
          Contact Page 
+        <Link to={'/about'}>About Page ABout About</Link>
         </p>
       </div>
     );
